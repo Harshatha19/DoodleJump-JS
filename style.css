@@ -1,0 +1,33 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background: yellow;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    color: maroon;
+    background-image: url('GridBG.png');
+}
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-color: red;
+    position: absolute;
+    
+    }
+    .photo{
+        grid-area: photo;
+        background: green;
+    }
+
+    .photo > img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+ .platform {
+     width: 85px;
+     height: 15px;
+     background-color: green;
+     position: absolute;
+ }
